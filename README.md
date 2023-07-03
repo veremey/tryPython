@@ -1,2 +1,1 @@
-# tryPython
 # Learn Python
