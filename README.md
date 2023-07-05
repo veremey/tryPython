@@ -10,7 +10,13 @@ for i in range(10):
 Defining Functions:
 
 ```
-def greetin(name) {
+def greetin(name):
   print("Welokme " + name)
-}
+```
+
+Comparing Things
+
+```
+print(10>1)
+>>> True
 ```
