@@ -163,3 +163,48 @@ print("Done")
 - infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
 
 - break - A keyword that can be used to end a loop at a specific point.
+
+### for Loop Terms
+
+```
+for n in range(0,11,2):
+    print(n)
+```
+
+The loop should print 0, 2, 4, 6, 8, 10
+
+```
+for number in range(2,7+1):
+    print(number)
+```
+
+The loop should print 2,3,4,5,6,7
+
+```
+for number in range(2,7):
+    print(number)
+```
+
+The loop should print 2,3,4,5,6
+
+---
+
+The roles of the **range(start, stop, step)** function parameters are:
+
+- **Start** - Beginning of range
+
+  - value included in range
+
+  - default = 0
+
+- **Stop** - End of range
+
+  - value excluded from range (to include, use stop+1)
+
+  - no default
+
+  - must provide the ending index number
+
+- **Step** - Incremental value
+
+  - default = 1
