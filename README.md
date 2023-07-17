@@ -208,3 +208,34 @@ The roles of the **range(start, stop, step)** function parameters are:
 - **Step** - Incremental value
 
   - default = 1
+
+### for Loops vs. while Loops
+
+for loops and while loops share several characteristics. Both loops can be used with a variety of data types, both can be nested, and both can be used with the keywords break and continue. However, there are important differences between the two types of loops:
+
+- while loops are used when a segment of code needs to execute repeatedly **while** a condition is true
+
+- for loops iterate over a sequence of elements, executing the body of the loop **for** each element in the sequence
+
+### Nested for Loops
+
+```
+for x in sequence:
+    # start of the outer loop body
+    for y in sequence:
+        # start of the inner loop body
+
+        # end of of the inner loop body
+    # continue body of the outer loop
+    # end of the outer loop body
+```
+
+Example of a for Loop with Nested if Statement:
+
+```
+for x in range(7):
+    if x % 2 == 0:
+        print(x)
+```
+
+The loop should print 0, 2, 4, 6
