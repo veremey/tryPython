@@ -239,3 +239,11 @@ for x in range(7):
 ```
 
 The loop should print 0, 2, 4, 6
+
+**variables** - Know how to properly initialize or increment a variable. You will also need to recognize a coding error due to the failure to properly initialize or increment a variable.
+
+**infinite loops** - Know how to recognize infinite loops and use common solutions to prevent them. For example, check loop conditions, ranges, iterators, control statements, etc. to ensure that at least one of these controls are in place to prevent an infinite loop.
+
+**iterators** - Know the various options available for iterating a variable (e.g., using assignment operators, using the third range() function parameter). You will also need to analyze where the iteration should occur. A misplaced iterator could produce the wrong output or create an infinite loop.
+
+**control statements **- Know how and when to use the break and continue control statements to prevent infinite loops.
