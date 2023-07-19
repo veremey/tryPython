@@ -246,4 +246,30 @@ The loop should print 0, 2, 4, 6
 
 **iterators** - Know the various options available for iterating a variable (e.g., using assignment operators, using the third range() function parameter). You will also need to analyze where the iteration should occur. A misplaced iterator could produce the wrong output or create an infinite loop.
 
-**control statements **- Know how and when to use the break and continue control statements to prevent infinite loops.
+**control statements** - Know how and when to use the break and continue control statements to prevent infinite loops.
+
+**_range()_** Function Parameters - Know the roles of the three possible range(x, y, z) function parameters:
+
+- **_x_** - Start of Range (included)
+
+- **_y_** - End of Range (excluded index)
+
+  To include the end of range index, use the expression y+1
+
+  The end of range must be included in the range() parameters.
+
+- **_z_** - Incremental value
+
+_Example 1:_ **_range(4, 12+1, 2)_**
+
+_This example creates a range that starts at 4 and ends at 12 (without the +1, the range would end at 11)._
+
+_The third parameter increments the range iteration by 2, as opposed to the default increment of 1. The range(4, 12+1, 2) expression would produce the values: 4, 6, 8, 10, 12_
+
+_Example 2:_ **_range(10, 2-1, -2)_**
+
+_This example creates a range that starts at 10 and ends at 2-1, with a decremental value of -2. When counting down, to include the value of the end of the range index, use -1 (end of range minus 1). This range produces the sequence: 10, 8, 6, 4, 2_
+
+**_print()_** Function Default Behavior - Know the default behavior of the **_print()_** function is to insert a new line character after the print statement runs.
+
+To override the insertion of the new line character and replace it with a space, add end=" " as the last item in the **_print()_** parameters. This makes it possible to add the next print output to the same line, separated by a space. You might use this technique when a **_print()_** function is part of a for or while loop. Example syntax: **_print(x+1, end=" ")_**
