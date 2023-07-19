@@ -158,11 +158,53 @@ print("Done")
 
 ### while Loop Terms:
 
-- while loop - Tells the computer to execute a set of instructions while a specified condition is True. In other words, while loops keep executing the same group of instructions until the condition becomes False.
+- **_while loop_** - Tells the computer to execute a set of instructions while a specified condition is True. In other words, while loops keep executing the same group of instructions until the condition becomes False.
 
-- infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
+- **_infinite loop_** - Missing a method for exiting the loop, causing the loop to run forever.
 
-- break - A keyword that can be used to end a loop at a specific point.
+- **_break_** - A keyword that can be used to end a loop at a specific point.
+
+```
+def addition_table(given_number):
+
+  iterated_number = 1
+  my_sum = 1
+
+  while iterated_number <= 5:
+    my_sum = given_number + iterated_number
+
+    if my_sum > 20:
+        break
+
+    print(str(given_number), "+", str(iterated_number), "=", str(my_sum))
+    iterated_number += 1
+```
+
+_addition_table(5)_
+
+_addition_table(17)_
+
+_addition_table(30)_
+
+_Expected output:_
+
+_5 + 1 = 6_
+
+_5 + 2 = 7_
+
+_5 + 3 = 8_
+
+_5 + 4 = 9_
+
+_5 + 5 = 10_
+
+_17 + 1 = 18_
+
+_17 + 2 = 19_
+
+_17 + 3 = 20_
+
+_None_
 
 ### for Loop Terms
 
