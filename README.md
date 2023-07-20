@@ -315,3 +315,23 @@ _This example creates a range that starts at 10 and ends at 2-1, with a decremen
 **_print()_** Function Default Behavior - Know the default behavior of the **_print()_** function is to insert a new line character after the print statement runs.
 
 To override the insertion of the new line character and replace it with a space, add end=" " as the last item in the **_print()_** parameters. This makes it possible to add the next print output to the same line, separated by a space. You might use this technique when a **_print()_** function is part of a for or while loop. Example syntax: **_print(x+1, end=" ")_**
+
+---
+
+## String Indexing and Slicing
+
+String indexing allows you to access individual characters in a string.
+If you try to access an index that’s larger than the length of your string, you’ll get an **_IndexError_**.
+You can also access a portion of a string, called a **_slice_** or a **_substring_**. This allows you to access multiple characters of a string. You can do this by creating a range, using a colon as a separator between the start and end of the range, `like [2:5]`.
+
+```
+>>> fruit = "Mangosteen"
+>>> fruit[1:4]
+'ang'
+
+>>> fruit[:5]
+'Mango'
+
+>>> fruit[5:]
+'steen'
+```
