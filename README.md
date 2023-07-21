@@ -336,9 +336,7 @@ You can also access a portion of a string, called a **_slice_** or a **_substrin
 'steen'
 ```
 
-String methods:
-
-Method Description:
+### String methods:
 
 | Method         | Description                                                                                   |
 | -------------- | :-------------------------------------------------------------------------------------------- |
@@ -387,3 +385,16 @@ Method Description:
 | translate()    | Returns a translated string                                                                   |
 | upper()        | Converts a string into upper case                                                             |
 | zfill()        | Fills the string with a specified number of 0 values at the beginning                         |
+
+```
+example = "format() method"
+formatted_string = "this is an example of using the {} on a string".format(example)
+print(formatted_string)
+
+>> this is an example of using the format() method on a string
+```
+
+### Formatting expressions:
+
+| Expr | Meaning | Example |
+| ---- | ------- | ------- |
