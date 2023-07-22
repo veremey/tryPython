@@ -461,3 +461,15 @@ print(my_list)
 | setdefault() | Returns the value of the specified key. If the key does not exist: insert the key, with the specified value |
 | update()     | Updates the dictionary with the specified key-value pairs                                                   |
 | values()     | Returns a list of all the values in the dictionary                                                          |
+
+#### Dictionary operations:
+
+| Operation                                | Description                                                  |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| len(`dictionary`)                        | Returns the number of items in a dictionary.                 |
+| for `key`, in `dictionary`               | Iterates over each key in a dictionary.                      |
+| for `key`, `value` in dictionary.items() | Iterates over each key,value pair in a dictionary.           |
+| if `key` in dictionary                   | Checks whether a key is in a dictionary.                     |
+| dictionary[`key`]                        | Accesses a value using the associated key from a dictionary. |
+| dictionary[`key`] = value                | Sets a value associated with a key.                          |
+| del dictionary[`key`]                    | Removes a value using the associated key from a dictionary.  |
