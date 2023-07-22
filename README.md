@@ -404,3 +404,44 @@ print(formatted_string)
 | {:<6s} | string aligned to the left that many spaces  | `'{:<6s}'.format('Py') → 'Py    '` |
 | {:>6s} | string aligned to the right that many spaces | `'{:>6s}'.format('Py') → '    Py'` |
 | {:^6s} | string centered in that many spaces          | `'{:^6s}'.format('Py') → '  Py  '` |
+
+List Comprehensions:
+
+```
+def odd_numbers(n):
+	return [x for x in range(1, n+1) if x % 2]
+
+>> print(odd_numbers(5))  # Should print [1, 3, 5]
+>> print(odd_numbers(10)) # Should print [1, 3, 5, 7, 9]
+>> print(odd_numbers(11)) # Should print [1, 3, 5, 7, 9, 11]
+>> print(odd_numbers(1))  # Should print [1]
+```
+
+Example:
+
+`print([x*2 for x in range(1,11)])`
+
+equal
+
+```
+my_list = []
+for x in range(1,11):
+   my_list.append(x*2)
+print(my_list)
+```
+
+### List methods:
+
+| Method    | Description                                                                  |
+| --------- | ---------------------------------------------------------------------------- | ---- |
+| append()  | Adds an element at the end of the list                                       |
+| clear()   | Removes all the elements from the list                                       |
+| copy()    | Returns a copy of the list                                                   |
+| count()   | Returns the number of elements with the specified v                          | alue |
+| extend()  | Add the elements of a list (or any iterable), to the end of the current list |
+| index()   | Returns the index of the first element with the specified value              |
+| insert()  | Adds an element at the specified position                                    |
+| pop()     | Removes the element at the specified position                                |
+| remove()  | Removes the item with the specified value                                    |
+| reverse() | Reverses the order of the list                                               |
+| sort()    | Sorts the list                                                               |
