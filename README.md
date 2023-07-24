@@ -91,7 +91,7 @@ Evaluate the output of this print statement
 
 ```
 def product(a, b):
-    return(a*b)
+  return(a*b)
 
 print(product(product(2,4), product(3,5)))
 ```
@@ -101,10 +101,10 @@ Evaluate the output of this print statement
 
 ```
 def difference(a, b):
-    return(a-b)
+  return(a-b)
 
 def sum(a, b):
-    return(a+b)
+  return(a+b)
 
 print(difference(sum(2,2), sum(3,3)))
 ```
@@ -131,11 +131,11 @@ Evaluate the output of this if-elif-else statement
 ```
 number = 6
 if number * 2 < 14:
-    print(number * 6 % 3)
+  print(number * 6 % 3)
 elif number > 7:
-    print(100 / number)
+  print(100 / number)
 else:
-    print(7 - number)
+  print(7 - number)
 ```
 
 ```
@@ -174,7 +174,7 @@ def addition_table(given_number):
     my_sum = given_number + iterated_number
 
     if my_sum > 20:
-        break
+      break
 
     print(str(given_number), "+", str(iterated_number), "=", str(my_sum))
     iterated_number += 1
@@ -210,21 +210,21 @@ _None_
 
 ```
 for n in range(0,11,2):
-    print(n)
+  print(n)
 ```
 
 The loop should print 0, 2, 4, 6, 8, 10
 
 ```
 for number in range(2,7+1):
-    print(number)
+  print(number)
 ```
 
 The loop should print 2,3,4,5,6,7
 
 ```
 for number in range(2,7):
-    print(number)
+  print(number)
 ```
 
 The loop should print 2,3,4,5,6
@@ -263,21 +263,21 @@ for loops and while loops share several characteristics. Both loops can be used 
 
 ```
 for x in sequence:
-    # start of the outer loop body
-    for y in sequence:
-        # start of the inner loop body
+  # start of the outer loop body
+  for y in sequence:
+    # start of the inner loop body
 
-        # end of of the inner loop body
-    # continue body of the outer loop
-    # end of the outer loop body
+    # end of of the inner loop body
+  # continue body of the outer loop
+  # end of the outer loop body
 ```
 
 Example of a for Loop with Nested if Statement:
 
 ```
 for x in range(7):
-    if x % 2 == 0:
-        print(x)
+  if x % 2 == 0:
+    print(x)
 ```
 
 The loop should print 0, 2, 4, 6
@@ -426,7 +426,7 @@ equal
 ```
 my_list = []
 for x in range(1,11):
-   my_list.append(x*2)
+  my_list.append(x*2)
 print(my_list)
 ```
 
